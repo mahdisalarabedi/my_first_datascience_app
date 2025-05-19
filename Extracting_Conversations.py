@@ -1,6 +1,6 @@
 def Conversation_extractor(number_of_conversations):    
     import json
-    with open(r'ChatExport_2024-12-22/ChatExport_2025-01-05\result.json',"r",encoding="utf-8") as f: 
+    with open('ChatExport_2024-12-22/ChatExport_2025-01-05\result.json') as f: 
         data=json.load(f)
 
     def create_dict_of_beloved_keys(dict,key_to_extract):   
