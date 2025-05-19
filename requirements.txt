@@ -1,5 +1,5 @@
 langchain_openai
-langchain_coreprompts
+langchain_core
 pandas
 numpy
 json
